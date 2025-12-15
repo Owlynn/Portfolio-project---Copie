@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J'écris - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="hamburger" onclick="toggleMenu()" title="Ouvrir le menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="chant.html">Je chante</a></li>
+                <li><a href="cours.html">Je donne des cours</a></li>
+                <li><a href="ecris.html" class="active">J'écris</a></li>
+                <li><a href="photos.html">Je prends des photos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="script.js"></script>
+
+    <main>
+        <a href="index.html" class="back-link">← Retour</a>
+
+        <section class="section-header">
+            <img src="https://picsum.photos/800/400?random=12" alt="Écriture" class="header-image">
+            <h1>J'écris</h1>
+        </section>
+
+        <section class="section-content">
+            <h2>Des mots silencieux</h2>
+            <p>Découvrez mes créations littéraires, textes poétiques et écrits sur mon site <strong>Des mots silencieux</strong>.</p>
+            <div class="link-container">
+                <a href="https://des-mots-silencieux.webflow.io/" target="_blank" rel="noopener noreferrer" class="btn btn-large">
+                    Visiter Des mots silencieux →
+                </a>
+            </div>
+            <div class="site-preview">
+                <p class="preview-text">Textes • L'autrice • Publications</p>
+                <p class="preview-description">Une collection de textes poétiques et d'écrits personnels, explorant différents thèmes et émotions à travers les mots.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Jessalynn</p>
+    </footer>
+</body>
+</html>
+
