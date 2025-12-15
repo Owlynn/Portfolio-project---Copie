@@ -6,6 +6,8 @@ A personal portfolio website made with HTML, CSS and JavaScript.
 
 This project is a static portfolio website that showcases different projects and activities. The site has multiple pages for each section.
 
+🔗 **Live Demo:** [https://portfolio-project-copie.vercel.app/](https://portfolio-project-copie.vercel.app/)
+
 ## Project Files
 
 - `index.html` - Homepage
