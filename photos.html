@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Je prends des photos - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="hamburger" onclick="toggleMenu()" title="Ouvrir le menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="chant.html">Je chante</a></li>
+                <li><a href="cours.html">Je donne des cours</a></li>
+                <li><a href="ecris.html">J'écris</a></li>
+                <li><a href="photos.html" class="active">Je prends des photos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="script.js"></script>
+
+    <main>
+        <a href="index.html" class="back-link">← Retour</a>
+
+        <section class="section-header">
+            <img src="https://picsum.photos/800/400?random=16" alt="Photographie" class="header-image">
+            <h1>Je prends des photos</h1>
+        </section>
+
+        <section class="section-content">
+            <h2>Galerie 500px</h2>
+            <p>Découvrez ma collection de photographies sur <a href="https://500px.com/p/Jessalynn?view=photos" target="_blank" rel="noopener noreferrer" class="external-link">500px</a>, capturant des moments, des paysages et des émotions.</p>
+            <div class="embed-container">
+                <iframe src="https://500px.com/p/Jessalynn?view=photos" width="100%" height="800" frameborder="0" allowfullscreen title="Galerie 500px de Jessalynn"></iframe>
+            </div>
+            <p class="embed-fallback">Si la galerie ne s'affiche pas, <a href="https://500px.com/p/Jessalynn?view=photos" target="_blank" rel="noopener noreferrer" class="external-link">visitez directement ma galerie sur 500px</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Jessalynn</p>
+    </footer>
+</body>
+</html>
+
