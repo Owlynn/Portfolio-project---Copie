@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="hamburger" onclick="toggleMenu()" title="Ouvrir le menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="chant.html">Je chante</a></li>
+                <li><a href="cours.html">Je donne des cours</a></li>
+                <li><a href="ecris.html">J'écris</a></li>
+                <li><a href="photos.html">Je prends des photos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="script.js"></script>
+
+    <main>
+        <section class="hero">
+            <img src="images/hero-photo.jpg" alt="Portrait" class="hero-image" onerror="this.onerror=null; this.src='https://picsum.photos/400/400?random=1'">
+            <h1>Jessalynn</h1>
+            <p class="tagline">Boule à facette multifactorielle</p>
+            <p class="subtitle">Pseudo artiste 2.0</p>
+        </section>
+
+        <section class="sections-grid">
+            <div class="section-card">
+                <img src="images/chant-photo.jpg" alt="Performance vocale" class="card-image" onerror="this.onerror=null; this.src='https://picsum.photos/600/400?random=2'">
+                <h2>Je chante</h2>
+                <p>Découvrez mes projets musicaux, improvisations, collaborations et reprises.</p>
+                <a href="chant.html" class="btn">Voir plus →</a>
+            </div>
+
+            <div class="section-card">
+                <img src="images/ddlv-logo.png" alt="Donner de la voix" class="card-image logo-card">
+                <h2>Je donne des cours</h2>
+                <p>Enseignement et partage de connaissances.</p>
+                <a href="cours.html" class="btn">Voir plus →</a>
+            </div>
+
+            <div class="section-card">
+                <img src="https://picsum.photos/600/400?random=3" alt="Écriture" class="card-image">
+                <h2>J'écris</h2>
+                <p>Mes écrits, articles et créations littéraires.</p>
+                <a href="ecris.html" class="btn">Voir plus →</a>
+            </div>
+
+            <div class="section-card">
+                <img src="https://picsum.photos/600/400?random=4" alt="Photographie" class="card-image">
+                <h2>Je prends des photos</h2>
+                <p>Galerie de mes photographies et créations visuelles.</p>
+                <a href="photos.html" class="btn">Voir plus →</a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Jessalynn</p>
+    </footer>
+</body>
+</html>
+
