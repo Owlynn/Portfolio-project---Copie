@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Je chante - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="hamburger" onclick="toggleMenu()" title="Ouvrir le menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="chant.html" class="active">Je chante</a></li>
+                <li><a href="cours.html">Je donne des cours</a></li>
+                <li><a href="ecris.html">J'écris</a></li>
+                <li><a href="photos.html">Je prends des photos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="script.js"></script>
+
+    <main>
+        <a href="index.html" class="back-link">← Retour</a>
+
+        <section class="section-header">
+            <img src="images/chant-header.jpg" alt="Performance vocale" class="header-image" onerror="this.onerror=null; this.src='https://picsum.photos/800/400?random=7'">
+            <h1>Je chante</h1>
+        </section>
+
+        <div class="sections-row">
+            <section class="section-content section-inline">
+                <h2>Improvisations</h2>
+                <p>Découvrez mes créations improvisées et mes performances live sous le nom <strong>Owlynn</strong>.</p>
+                <div class="project-item">
+                    <img src="images/improvisation-photo.jpg" alt="Improvisation live" class="project-image" onerror="this.onerror=null; this.src='https://picsum.photos/400/300?random=8'">
+                    <h3>Owlynn · Improvisations live</h3>
+                    <p>Performance live d'improvisations vocales. Écoutez mes créations sur SoundCloud.</p>
+                    <a href="https://soundcloud.com/owlynn" target="_blank" rel="noopener noreferrer" class="external-link">Profil SoundCloud Owlynn →</a>
+                </div>
+            </section>
+
+            <section class="section-content section-inline">
+                <h2>Collaborations</h2>
+                <p>Projets réalisés en collaboration avec d'autres artistes.</p>
+                <div class="project-item">
+                    <img src="https://picsum.photos/400/300?random=9" alt="Collaboration" class="project-image">
+                    <h3>Merj · #1&2 WIP</h3>
+                    <p>Collaboration en cours avec Merj. Découvrez nos projets sur SoundCloud.</p>
+                    <a href="https://soundcloud.com/merj" target="_blank" rel="noopener noreferrer" class="external-link">Écouter sur SoundCloud →</a>
+                </div>
+            </section>
+
+            <section class="section-content section-inline">
+                <h2>Reprises</h2>
+                <p>Mes interprétations personnelles de chansons existantes.</p>
+                <div class="project-item">
+                    <img src="https://picsum.photos/400/300?random=10" alt="Reprise" class="project-image">
+                    <h3>Reprises</h3>
+                    <p>Découvrez mes reprises et interprétations personnelles sur mes plateformes musicales.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Jessalynn</p>
+    </footer>
+</body>
+</html>
+
