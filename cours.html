@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Je donne des cours - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="hamburger" onclick="toggleMenu()" title="Ouvrir le menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="chant.html">Je chante</a></li>
+                <li><a href="cours.html" class="active">Je donne des cours</a></li>
+                <li><a href="ecris.html">J'écris</a></li>
+                <li><a href="photos.html">Je prends des photos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="script.js"></script>
+
+    <main>
+        <a href="index.html" class="back-link">← Retour</a>
+
+        <section class="section-header">
+            <img src="images/ddlv-logo.png" alt="Donner de la voix - Voix et créativité" class="header-image logo-image">
+            <h1>Je donne des cours de chant</h1>
+        </section>
+
+        <section class="section-content">
+            <div class="content-with-image">
+                <div class="text-content">
+                    <h2>À propos</h2>
+                    <p>Je propose des cours de chant pour tous les niveaux, du débutant au confirmé. Mes cours sont adaptés à chaque élève et visent à développer la technique vocale, l'expression artistique et la confiance en soi.</p>
+                </div>
+                <img src="images/cours-header.jpg" alt="Enseignement" class="content-image" onerror="this.onerror=null; this.src='https://picsum.photos/500/400?random=11'">
+            </div>
+        </section>
+
+        <section class="section-content">
+            <h2>Programme</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <h3>Technique vocale</h3>
+                    <p>Apprentissage des bases de la respiration, du placement vocal et de la projection.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Interprétation</h3>
+                    <p>Travail sur l'expression émotionnelle et l'interprétation personnelle des chansons.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Répertoire</h3>
+                    <p>Développement d'un répertoire adapté à votre voix et à vos goûts musicaux.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-content">
+            <h2>Contact</h2>
+            <p>Pour plus d'informations ou pour réserver un cours, visitez le site <a href="https://donnerdelavoix.fr/" target="_blank" rel="noopener noreferrer" class="external-link">Donner de la voix</a> ou contactez-moi par email.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Jessalynn</p>
+    </footer>
+</body>
+</html>
+
